@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final3">
+        <activity
+            android:name=".SelectedUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lirelasuite3"
+            android:exported="false" />
+        <activity
+            android:name=".Lirelasuite2"
+            android:exported="false" />
+        <activity
+            android:name=".Lirelasuite1"
+            android:exported="false" />
+        <activity
+            android:name=".Conseils"
+            android:exported="false" />
+        <activity
+            android:name=".Rendez_Vous"
+            android:exported="false" />
+        <activity
+            android:name=".produit4"
+            android:exported="false" />
+        <activity
+            android:name=".produit3"
+            android:exported="false" />
+        <activity
+            android:name=".produit2"
+            android:exported="false" />
+        <activity
+            android:name=".produit1"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceMaman"
+            android:exported="false" />
+        <activity
+            android:name=".Produit"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Dashbord"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedUserActivity">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bienvenue"
+            android:textColor="#171847"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:text="Cher future maman "
+            android:textColor="#EA5863"
+            android:layout_marginBottom="70dp"/>
+
+
+        <TextView
+            android:id="@+id/tvSelectDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Selectionner la date:"
+            android:textColor="#171847"
+            android:textSize="30sp"
+            />
+
+        <EditText
+            android:id="@+id/etSelectedDate"
+            android:layout_width="224dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"
+            android:height="60dp"
+            android:hint="Cliquez pour choisir"
+            android:textColor="#171847" />
+
+        <TextView
+            android:id="@+id/timetextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:text="Selectionner la date:"
+            android:textColor="#171847"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/picktime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Choisir l´heure"
+            android:backgroundTint="#869DAF"
+            android:textSize="15dp"
+            android:bottomRightRadius="25dp"
+            android:bottomLeftRadius="25dp"
+            android:topLeftRadius="25dp"
+            android:topRightRadius="25dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

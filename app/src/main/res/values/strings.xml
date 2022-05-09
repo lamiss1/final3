@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">final3</string>
+    // EspaceMAMAN
+    <string name="nom">Maman</string>
+    <string name="PremierMois">Premier Mois</string>
+    <string name="poids">Poids</string>
+    <string name="taille">Taille</string>
+    <string name="note1">Les membres inférieurs se développent</string>
+    <string name="rythme">Rythme cardiaque</string>
+    <string name="DeuxiemeMois">Deuxieme Mois</string>
+    <string name="TroisiemeMois">Troisieme Mois</string>
+    <string name="note2">Tous les organes vont se mettre en place</string>
+    <string name="note3">Le ventre commence donc à se voir.</string>
+    <string name="QuatriemeMois">Quatrieme Mois</string>
+    <string name="note4">Sa peau est transparente et laisse découvrir son réseau de vaisseaux sanguins</string>
+    <string name="Date_Consultations"> Dates Consultations </string>
+
+    // EspaceProduit
+    <string name="produits">Produits</string>
+    <string name="prix_produit1">210Dt</string>
+    <string name="prix_produit2">150Dt</string>
+    <string name="prix_produit3">109Dt</string>
+    <string name="prix_produit4">149Dt</string>
+    <string name="product_detail">Détails du produit</string>
+    <string name="Description">Description</string>
+    <string name="prix">Prix</string>
+    <string name="desc1">Un appareil qui offre la possibilité d enregistrer le rythme cardiaque du fœtus.</string>
+    <string name="desc2">Un appareil qui offre la possibilité d enregistrer le rythme cardiaque du fœtus et déclare une alerte en cas de bardycardie/tachycardie du foetus</string>
+    >
+    <string name="ajout">Ajouter au panier</string>
+    <string name="rate">Rate</string>
+
+    // Espace conseils
+    <string name="article1">Définition de la souffrance foetale</string>
+    <string name="ok">La souffrance fœtale est un terme médical utilisé pour désigner une diminution de son oxygénation.</string>
+    <string name="soufrancechronique">La souffrance fœtale n est pas une douleur mais un terme médical utilisé pour désigner une diminution de son oxygénation (hypoxie).</string>
+    <string name="deuxtypesouffrancesfoetales">Il ya deux types de souffrance fœtale : </string>
+    <string name="lirelasuite">Lire Article</string>
+    <string name="article2">Les causes d une souffrance fœtale</string>
+    <string name="lescausesdesouffrancesfoetales">Les causes d une souffrance fœtale durant la grossesse sont multiples. Par exemples : </string>
+    <string name="conseils">Conseils</string>
+    <string name="chronique">La souffrance fœtale chronique (ou hypoxie) qui survient pendant la grossesse (elle évolue sur plusieurs semaines ou mois)
+</string>
+    <string name="aigue">La souffrance fœtale aiguë (ou hypoxie) qui survient au cours de l accouchement.</string>
+    <string name="note">A noter : à un stade plus grave, on parle d anoxie lorsqu on distingue une absence d oxygène dans les tissus. </string>
+    <string name="cause1"> L anémie : une baisse anormale du taux d hémoglobine dans le sang. </string>
+    <string name="cause2">  Grossesse prolongée.</string>
+    <string name="cause3">  Placenta prævia.</string>
+    <string name="cause4">  Gros enfant. </string>
+    <string name="cause5">  Maladie cardiovasculaire ou hypertension artérielle de la mère.</string>
+    <string name="solutions"> Voici quelques solutions en cas de souffrance foetale</string>
+    <string name="partie3"> Solutions pour la souffrance foetale</string>
+    <string name="solu1">Consommer suffisamment de produits animaux (de viandes rouges) , Augmenter la consommation de fruits et légumes</string>
+    <string name="solu2">Un suivi médical renforcé, qui consiste en la surveillance à l hôpital entre 2 et 3 fois par semaine</string>
+    <string name="solu3">Une césarienne</string>
+    <string name="solu4">Une activité physique régulière , pendant 30 min, cinq fois par semaine</string>
+    <string name="conseil1">Protection de votre santé</string>
+    <string name="conseil2">Notre plus haute priorité</string>
+</resources>

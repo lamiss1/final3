@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".produit1">
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="51dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/white"
+                app:srcCompat="@drawable/retoure"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="245dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/product_detail"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    app:srcCompat="@drawable/produit1"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/prix"
+                        android:textColor="@color/rouge"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/prix_produit1"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/rate"
+                        android:textColor="@color/rouge"
+                        android:textSize="16dp"
+                        android:layout_marginTop="5dp"                    android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/etoile_jaune"
+                        tools:ignore="DuplicateIds"
+                        android:layout_marginLeft="70dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/etoile_jaune"
+                        tools:ignore="DuplicateIds" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/etoile_jaune"
+                        tools:ignore="DuplicateIds" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/etoile_jaune"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/Description"
+                        android:textColor="@color/rouge"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:text="@string/desc2"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/white"
+                app:srcCompat="@drawable/shopping_cart" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/blue"
+                android:text="@string/ajout"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

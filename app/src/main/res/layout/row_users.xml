@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="18dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlImage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/round_bg">
+        <TextView
+            android:id="@+id/tvPrefix"
+            android:textColor="@color/white"
+            android:text="LC"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/rlImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvPhoneNumber"
+        android:text="UserName"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/rlImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserName"
+        android:text="UserName"
+        android:textColor="@color/black"
+        android:textSize="12dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
