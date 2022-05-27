@@ -15,12 +15,14 @@
         <include
             layout="@layout/main_toolbar"
             />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Alerte"
-            android:layout_gravity="center"/>
 
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:ignore="MissingConstraints" />
 
 
     </LinearLayout>
