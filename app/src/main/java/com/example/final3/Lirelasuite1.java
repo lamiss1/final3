@@ -10,5 +10,7 @@ public class Lirelasuite1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lirelasuite1);
+        getSupportActionBar().hide();
+
     }
 }

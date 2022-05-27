@@ -13,34 +13,20 @@
         tools:layout_editor_absoluteX="-3dp"
         tools:ignore="MissingConstraints">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/product_detail"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+           />
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:backgroundTint="@color/white"
-                app:srcCompat="@drawable/retoure"
-                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-            />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="245dp"
-                android:layout_height="44dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/product_detail"
-                android:textAlignment="center"
-                android:textColor="@color/blue"
-                android:textSize="26dp"
-                android:textStyle="bold"
-                android:backgroundTint="@color/white"/>
-
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -193,10 +179,10 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/white"
-                app:srcCompat="@drawable/shopping_cart" />
+                app:srcCompat="@drawable/panier" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/achat1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"

@@ -34,6 +34,8 @@ public class Rendez_Vous extends AppCompatActivity implements UserAdapter.UserCl
         rvUsers= findViewById(R.id.rvUsers);
         setData();
         prepareRecyclerView();
+
+
     }
     //rdv
 
@@ -44,8 +46,6 @@ public class Rendez_Vous extends AppCompatActivity implements UserAdapter.UserCl
         userModelList.add(new UserModel("Mohamed","Ben Ali","99999999"));
         userModelList.add(new UserModel("Ahmed","Mohamed","93721142"));
         userModelList.add(new UserModel("yassine","haffi","99999999"));
-        userModelList.add(new UserModel("Ridha","Lkalii","93721142"));
-
 
 
 
@@ -111,7 +111,7 @@ public class Rendez_Vous extends AppCompatActivity implements UserAdapter.UserCl
 
     }
     public void ClickAboutUs (View view){
-        MainActivity2.redirectActivity(this,AboutUs.class);
+        MainActivity2.redirectActivity(this, Ratee.class);
     }
 
     public void ClickHome(View view){
@@ -124,6 +124,15 @@ public class Rendez_Vous extends AppCompatActivity implements UserAdapter.UserCl
     public void ClickProduit ( View view ){
 
         MainActivity2.redirectActivity(this,Produit.class);
+    }
+    public void ClickRatee(View view){
+        MainActivity2.redirectActivity(this,Ratee.class);
+    }
+    public void ClickQ_A(View view){
+        MainActivity2.redirectActivity(this,Q_A.class);
+    }
+    public void ClickAlerte(View view){
+        MainActivity2.redirectActivity(this,Alerte.class);
     }
 
     public void ClickRendez_Vous (View view){

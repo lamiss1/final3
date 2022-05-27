@@ -8,6 +8,8 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/drawable/edittextbackground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/drawable/round_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_achat.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_alerte.xml" value="0.19157608695652173" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_conseils.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_dashbord.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_espace_maman.xml" value="0.25" />
@@ -22,11 +24,19 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_produit2.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_produit3.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_produit4.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_qa.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_rate.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_rate1.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_rendez_vous.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/activity_selected_user.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/add_newtask.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/dialog_main.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/item_main.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/main_nav_drawer.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/main_toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/ratee.xml" value="0.13134057971014493" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/row_users.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/layout/task_layout.xml" value="0.19157608695652173" />
         <entry key="..\:/Users/User/AndroidStudioProjects/final3/app/src/main/res/menu/search.xml" value="0.25" />
       </map>
     </option>

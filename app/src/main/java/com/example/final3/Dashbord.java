@@ -13,6 +13,7 @@ public class Dashbord extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashbord);
+        getSupportActionBar().hide();
 
         drawerLayout=findViewById(R.id.drawer_layout);
     }
@@ -35,7 +36,7 @@ public class Dashbord extends AppCompatActivity {
         MainActivity2.logout(this);
     }
     public void ClickAboutUs (View view){
-        MainActivity2.redirectActivity(this,AboutUs.class);
+        MainActivity2.redirectActivity(this, Ratee.class);
     }
     public  void ClickRendez_Vous(View view){
         MainActivity2.redirectActivity(this,Rendez_Vous.class);

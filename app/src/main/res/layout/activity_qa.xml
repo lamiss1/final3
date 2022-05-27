@@ -6,28 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    tools:context=".Rendez_Vous">
-    <LinearLayout
+    tools:context=".Q_A">
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
 
         <include
             layout="@layout/main_toolbar"
             />
 
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Question /Réponse "
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvUsers"
+            android:id="@+id/recyclerview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:layout_below="@+id/textview" />
 
-        </androidx.recyclerview.widget.RecyclerView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:src="@drawable/ic_baseline_add_24" />
 
-    </LinearLayout>
+
+    </RelativeLayout>
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"
@@ -39,6 +56,5 @@
         </include>
 
     </RelativeLayout>
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

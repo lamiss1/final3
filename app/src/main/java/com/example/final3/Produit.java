@@ -20,6 +20,8 @@ public class Produit extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_produit);
+        getSupportActionBar().hide();
+
         drawerLayout= findViewById(R.id.drawer_layout);
 
         button = findViewById(R.id.next1);
@@ -68,28 +70,30 @@ public class Produit extends AppCompatActivity {
         MainActivity2.redirectActivity(this,EspaceMaman.class);
 
     }
+
+    public void ClickRatee(View view){
+        MainActivity2.redirectActivity(this,Ratee.class);
+    }
     public void ClickProduit ( View view ){
-
-
         recreate();
     }
-
-
+    public void ClickQ_A(View view){
+        MainActivity2.redirectActivity(this,Q_A.class);
+    }
     public void ClickHome(View view){
         MainActivity2.redirectActivity(this,MainActivity2.class);
     }
-
     public void ClickLogout(View view){
         MainActivity2.logout(this);
-    }
-    public void ClickAboutUs (View view){
-        MainActivity2.redirectActivity(this,AboutUs.class);
     }
     public void ClickConseils( View view){
         MainActivity2.redirectActivity(this,Conseils.class);
     }
     public  void ClickRendez_Vous(View view){
         MainActivity2.redirectActivity(this,Rendez_Vous.class);
+    }
+    public void ClickAlerte(View view){
+        MainActivity2.redirectActivity(this,Alerte.class);
     }
 
 

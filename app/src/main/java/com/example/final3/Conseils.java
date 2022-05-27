@@ -7,14 +7,12 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.net.Uri;
 import android.widget.MediaController;
 import android.widget.Button;
-import android.widget.MediaController;
 import android.widget.VideoView;
 
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 
 public class Conseils extends AppCompatActivity {
@@ -27,6 +25,9 @@ public class Conseils extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conseils);
+
+        getSupportActionBar().hide();
+
         drawerLayout = findViewById(R.id.drawer_layout);
 
         lirelasuite1 = findViewById(R.id.lirelasuite1);
@@ -68,7 +69,9 @@ public class Conseils extends AppCompatActivity {
     }
     public void clickLogo (View view){
         MainActivity2.closeDrawer(drawerLayout);
-
+    }
+    public void ClickRatee(View view){
+        MainActivity2.redirectActivity(this,Ratee.class);
     }
 
     public void ClickHome(View view){
@@ -77,10 +80,11 @@ public class Conseils extends AppCompatActivity {
     public void ClickEspaceMaman(View view){
         MainActivity2.redirectActivity(this,EspaceMaman.class);
     }
-
     public void ClickProduit ( View view ){
-
         MainActivity2.redirectActivity(this,Produit.class);
+    }
+    public void ClickQ_A(View view){
+        MainActivity2.redirectActivity(this,Q_A.class);
     }
     public void ClickLogout(View view){
         MainActivity2.logout(this);
@@ -88,13 +92,12 @@ public class Conseils extends AppCompatActivity {
     public void ClickConseils (View view){
         recreate();
     }
-    public void ClickAboutUs(View view){
-        MainActivity2.redirectActivity(this,AboutUs.class);
-    }
     public  void ClickRendez_Vous(View view){
         MainActivity2.redirectActivity(this,Rendez_Vous.class);
     }
-
+    public void ClickAlerte(View view){
+        MainActivity2.redirectActivity(this,Alerte.class);
+    }
 
     @Override
     protected void onPause() {

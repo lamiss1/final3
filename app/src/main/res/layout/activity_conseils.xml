@@ -175,7 +175,7 @@
                                 android:id="@+id/imageView44"
                                 android:layout_width="match_parent"
                                 android:layout_height="54dp"
-                                app:srcCompat="@drawable/fetal"
+                                app:srcCompat="@drawable/souffrance"
                                 tools:ignore="DuplicateIds" />
 
                             <Button
@@ -232,7 +232,7 @@
                                 android:id="@+id/imageView444"
                                 android:layout_width="match_parent"
                                 android:layout_height="54dp"
-                                app:srcCompat="@drawable/embryo" />
+                                app:srcCompat="@drawable/fetal" />
 
                             <Button
                                 android:id="@+id/lirelasuite2"
@@ -288,8 +288,9 @@
                                 android:id="@+id/imageView4"
                                 android:layout_width="match_parent"
                                 android:layout_height="54dp"
+                                app:srcCompat="@drawable/discussion"
                                 />
-                            //app:srcCompat="@drawable/discussion"
+
 
                             <Button
                                 android:id="@+id/lirelasuite3"

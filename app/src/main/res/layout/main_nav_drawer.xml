@@ -28,6 +28,27 @@
         android:background="#636363"
         />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickAlerte">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp"
+            android:text="Alert"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            />
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -164,18 +185,20 @@
             />
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickAboutUs">
+        android:onClick="ClickRatee">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             tools:ignore="Suspicious0dp"
-            android:text="AboutUs"
+            android:text="Rate"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
         <ImageView
@@ -184,6 +207,7 @@
             android:layout_marginEnd="48dp"
             />
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"

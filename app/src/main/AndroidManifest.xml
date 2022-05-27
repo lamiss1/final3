@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final3">
         <activity
+            android:name=".Alerte"
+            android:exported="false" />
+        <activity
+            android:name=".Q_A"
+            android:exported="false" />
+        <activity
+            android:name=".Achat"
+            android:exported="false" />
+        <activity
             android:name=".SelectedUserActivity"
             android:exported="false" />
         <activity
@@ -46,7 +55,7 @@
             android:name=".Produit"
             android:exported="false" />
         <activity
-            android:name=".AboutUs"
+            android:name=".Ratee"
             android:exported="false" />
         <activity
             android:name=".Dashbord"
