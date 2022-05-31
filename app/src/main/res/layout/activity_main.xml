@@ -117,13 +117,7 @@
         android:topRightRadius="25dp"
         />
 
-    <com.github.mikephil.charting.charts.LineChart
-        android:id="@+id/chart1"
-        android:layout_width="368dp"
-        android:layout_height="200dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="0dp" />
+
 
 
 </LinearLayout>

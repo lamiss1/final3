@@ -14,6 +14,7 @@ import android.view.View;
 
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
+import com.github.mikephil.charting.components.LimitLine;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
@@ -54,6 +55,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         mChart = (LineChart) findViewById(R.id.chart1);
 
 
+
         mChart.getDescription().setEnabled(true);
         mChart.getDescription().setText("Le rythme cardiaque du foetus");
 
@@ -62,6 +64,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         // enable scaling and dragging
         mChart.setDragEnabled(true);
         mChart.setScaleEnabled(true);
+
 
         mChart.setDrawGridBackground(false);
 
@@ -90,6 +93,21 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         xl.setAvoidFirstLastClipping(true);
         xl.setEnabled(true);
 
+        //Danger Zone
+
+        LimitLine upper_limit= new LimitLine(160f,"Danger");
+        upper_limit.setLineWidth(4f);
+        upper_limit.enableDashedLine(10f, 10f, 0f);
+        upper_limit.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_TOP);
+        upper_limit.setTextSize(15f);
+
+        LimitLine lower_line= new LimitLine(110f,"Danger");
+        lower_line.setLineWidth(4f);
+        lower_line.enableDashedLine(10f, 10f, 0f);
+        lower_line.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_BOTTOM);
+        lower_line.setTextSize(15f);
+
+
         YAxis leftAxis = mChart.getAxisLeft();
         leftAxis.setTextColor(Color.WHITE);
         leftAxis.setDrawGridLines(false);
@@ -97,12 +115,22 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         leftAxis.setAxisMinimum(0f);
         leftAxis.setDrawGridLines(true);
 
+        leftAxis.addLimitLine(upper_limit);
+        leftAxis.addLimitLine(lower_line);
+        leftAxis.enableGridDashedLine(10f,10f,10f);
+        leftAxis.setDrawTopYLabelEntry(true);
+
+
+
         YAxis rightAxis = mChart.getAxisRight();
         rightAxis.setEnabled(false);
 
         mChart.getAxisLeft().setDrawGridLines(false);
         mChart.getXAxis().setDrawGridLines(false);
         mChart.setDrawBorders(false);
+
+
+
 
 
         startPlot();
