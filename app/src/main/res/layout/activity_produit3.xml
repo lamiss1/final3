@@ -25,7 +25,7 @@
                 android:backgroundTint="@color/white"
                 app:srcCompat="@drawable/retoure"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-            />
+
 
             <TextView
                 android:id="@+id/textView2"

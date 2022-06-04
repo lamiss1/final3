@@ -20,7 +20,7 @@
             android:id="@+id/chart1"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="329dp"
+            android:layout_height="300dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />

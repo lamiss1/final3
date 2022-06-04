@@ -76,7 +76,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         mChart.setBackgroundColor(Color.WHITE);
 
         LineData data = new LineData();
-        data.setValueTextColor(Color.WHITE);
+        data.setValueTextColor(Color.RED);
 
         // add empty data
         mChart.setData(data);
@@ -96,22 +96,25 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         //Danger Zone
 
         LimitLine upper_limit= new LimitLine(160f,"Danger");
-        upper_limit.setLineWidth(4f);
+        upper_limit.setLineWidth(3f);
         upper_limit.enableDashedLine(10f, 10f, 0f);
         upper_limit.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_TOP);
         upper_limit.setTextSize(15f);
+        upper_limit.setTextColor(Color.MAGENTA);
+
 
         LimitLine lower_line= new LimitLine(110f,"Danger");
-        lower_line.setLineWidth(4f);
+        lower_line.setLineWidth(3f);
         lower_line.enableDashedLine(10f, 10f, 0f);
         lower_line.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_BOTTOM);
         lower_line.setTextSize(15f);
+        upper_limit.setTextColor(Color.MAGENTA);
 
 
         YAxis leftAxis = mChart.getAxisLeft();
-        leftAxis.setTextColor(Color.WHITE);
+        leftAxis.setTextColor(Color.RED);
         leftAxis.setDrawGridLines(false);
-        leftAxis.setAxisMaximum(10f);
+        leftAxis.setAxisMaximum(180f);
         leftAxis.setAxisMinimum(0f);
         leftAxis.setDrawGridLines(true);
 
@@ -130,11 +133,10 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         mChart.setDrawBorders(false);
 
 
-
-
-
         startPlot();
     }
+
+
 
     private void startPlot(){
         if(thread!=null){
@@ -174,7 +176,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
             }
 
 //            data.addEntry(new Entry(set.getEntryCount(), (float) (Math.random() * 80) + 10f), 0);
-            data.addEntry(new Entry(set.getEntryCount(), event.values[0] + 5), 0);
+            data.addEntry(new Entry(set.getEntryCount(), event.values[0] + 150), 0);
             data.notifyDataChanged();
 
             // let the chart know it's data has changed
