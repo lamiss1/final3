@@ -37,29 +37,30 @@
 
 
     // Espace conseils
-    <string name="article1">Définition de la souffrance foetale</string>
-    <string name="ok">La souffrance fœtale est un terme médical utilisé pour désigner une diminution de son oxygénation.</string>
-    <string name="soufrancechronique">La souffrance fœtale n est pas une douleur mais un terme médical utilisé pour désigner une diminution de son oxygénation (hypoxie).</string>
-    <string name="deuxtypesouffrancesfoetales">Il ya deux types de souffrance fœtale : </string>
-    <string name="lirelasuite">Lire Article</string>
-    <string name="article2">Les causes d une souffrance fœtale</string>
-    <string name="lescausesdesouffrancesfoetales">Les causes d une souffrance fœtale durant la grossesse sont multiples. Par exemples : </string>
-    <string name="conseils">Conseils</string>
-    <string name="chronique">La souffrance fœtale chronique (ou hypoxie) qui survient pendant la grossesse (elle évolue sur plusieurs semaines ou mois)
+    <string name="article1">Definition of fetal suffering </string>
+    <string name="ok">Fetal suffering is a medical term used to describe a decrease in oxygenation.</string>
+    <string name="soufrancechronique">Fetal suffering is not a pain but a medical term used to designate a decrease in oxygenation (hypoxia).</string>
+    <string name="deuxtypesouffrancesfoetales">There are two types of fetal suffering: </string>
+    <string name="lirelasuite">Read Article</string>
+    <string name="article2">Causes of fetal suffering</string>
+    <string name="lescausesdesouffrancesfoetales">There are many causes of fetal suffering during pregnancy. For example: </string>
+    <string name="conseils">Tips</string>
+    <string name="chronique">Chronic fetal suffering (or hypoxia) that occurs during pregnancy (it evolves over several weeks or months)
 </string>
-    <string name="aigue">La souffrance fœtale aiguë (ou hypoxie) qui survient au cours de l accouchement.</string>
-    <string name="note">A noter : à un stade plus grave, on parle d anoxie lorsqu on distingue une absence d oxygène dans les tissus. </string>
+    <string name="aigue">Acute fetal suffering (or hypoxia) that occurs during the time of birth.</string>
+    <string name="note">Note: at a more serious stage, we speak of anoxia when there is an absence of oxygen in the tissues. </string>
     <string name="cause1"> L anémie : une baisse anormale du taux d hémoglobine dans le sang. </string>
     <string name="cause2">  Grossesse prolongée.</string>
     <string name="cause3">  Placenta prævia.</string>
     <string name="cause4">  Gros enfant. </string>
     <string name="cause5">  Maladie cardiovasculaire ou hypertension artérielle de la mère.</string>
-    <string name="solutions"> Voici quelques solutions en cas de souffrance foetale</string>
-    <string name="partie3"> Solutions pour la souffrance foetale</string>
+    <string name="solutions"> Here are some solutions in case of fetal suffering</string>
+    <string name="partie3"> Solutions for fetal suffering</string>
     <string name="solu1">Consommer suffisamment de produits animaux (de viandes rouges) , Augmenter la consommation de fruits et légumes</string>
     <string name="solu2">Un suivi médical renforcé, qui consiste en la surveillance à l hôpital entre 2 et 3 fois par semaine</string>
     <string name="solu3">Une césarienne</string>
     <string name="solu4">Une activité physique régulière , pendant 30 min, cinq fois par semaine</string>
-    <string name="conseil1">Protection de votre santé</string>
-    <string name="conseil2">Notre plus haute priorité</string>
+    <string name="conseil1">Protecting your health</string>
+    <string name="conseil2">
+Our highest priority</string>
 </resources>
