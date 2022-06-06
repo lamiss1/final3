@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     tools:context=".Q_A">
+
+
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-
         <include
             layout="@layout/main_toolbar"
             />
@@ -23,16 +23,21 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:text="Question /Réponse "
-            android:textColor="@color/black"
-            android:textSize="32sp"
-            android:textStyle="bold" />
+            android:paddingTop="25dp"
+            android:text=" Question /Answer "
+
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textview" />
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
