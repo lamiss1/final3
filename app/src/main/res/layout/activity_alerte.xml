@@ -24,9 +24,8 @@
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
-
-
     </LinearLayout>
+
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"

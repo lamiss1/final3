@@ -31,22 +31,13 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <ImageButton
-                        android:id="@+id/ok"
-                        android:layout_width="110dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/white"
-
-                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="183dp"
                         android:layout_height="44dp"
-                        android:layout_marginLeft="30dp"
+                        android:layout_marginLeft="100dp"
                         android:layout_marginTop="10dp"
-                        android:text="@string/nom"
+                        android:text="Mom"
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="26dp"
@@ -703,56 +694,6 @@
 
             </HorizontalScrollView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/barredestaches"
-                android:orientation="vertical"
-                android:layout_marginTop="85dp"
-                >
-
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-
-                    >
-
-                    <ImageButton
-                        android:id="@+id/imageButton3"
-                        android:layout_width="55dp"
-                        android:layout_height="47dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginTop="7dp"
-                        android:backgroundTint="@color/white"
-                        app:srcCompat="@drawable/home"
-                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-                    <ImageView
-                        android:id="@+id/imageView6"
-                        android:layout_width="55dp"
-                        android:layout_height="47dp"
-                        android:layout_marginLeft="95dp"
-                        android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/pregnancy" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton4"
-                        android:layout_width="55dp"
-                        android:layout_height="47dp"
-                        android:layout_marginLeft="90dp"
-                        android:layout_marginTop="7dp"
-                        android:backgroundTint="@color/white"
-                        app:srcCompat="@drawable/user"
-                        tools:ignore="SpeakableTextPresentCheck" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
 
         </LinearLayout>
 
@@ -762,8 +703,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/white">
-        <include
-            layout="@layout/main_nav_drawer">
+
+        <include layout="@layout/main_nav_drawer">
 
         </include>
 

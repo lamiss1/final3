@@ -34,7 +34,7 @@
                 android:layout_height="44dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
-                android:text="@string/produits"
+                android:text="products"
                 android:textAlignment="center"
                 android:textColor="@color/blue"
                 android:textSize="26dp"
@@ -74,7 +74,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Produit2"
+                        android:text="Product2"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
@@ -166,7 +166,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Produit1"
+                        android:text="Product1"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold"
@@ -265,7 +265,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Produit3"
+                        android:text="Product3"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
@@ -358,7 +358,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Produit4"
+                        android:text="Product4"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold" />

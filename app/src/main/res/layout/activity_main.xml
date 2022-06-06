@@ -19,7 +19,7 @@
         android:gravity="center"
         android:textSize="50dp"
         android:layout_marginTop="30dp"
-        android:textColor="#171847"
+        android:textColor="#636262"
         android:textStyle="bold"
         />
     <ImageView
@@ -92,30 +92,29 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:backgroundTint="#171847"
-        android:bottomRightRadius="25dp"
-        android:bottomLeftRadius="25dp"
-        android:topLeftRadius="25dp"
-        android:topRightRadius="25dp"
+        android:backgroundTint="#06668C"
+        android:bottomRightRadius="45dp"
+        android:bottomLeftRadius="45dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
         />
 
     <Button
         android:id="@+id/signin"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="59dp"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="8dp"
         android:backgroundTint="#EBF2FA"
+        android:bottomLeftRadius="40dp"
+        android:bottomRightRadius="40dp"
         android:text="Already have an account"
-        android:textColor="#171847"
+        android:textColor="#06668C"
         android:textSize="15dp"
-        android:bottomRightRadius="25dp"
-        android:bottomLeftRadius="25dp"
-        android:topLeftRadius="25dp"
-        android:topRightRadius="25dp"
-        />
+        android:topLeftRadius="40dp"
+        android:topRightRadius="40dp" />
 
 
 

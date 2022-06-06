@@ -2,16 +2,20 @@
     <string name="app_name">final3</string>
     // EspaceMAMAN
     <string name="nom">Maman</string>
-    <string name="PremierMois">Premier Mois</string>
-    <string name="poids">Poids</string>
-    <string name="taille">Taille</string>
-    <string name="note1">Les membres inférieurs se développent</string>
-    <string name="rythme">Rythme cardiaque</string>
-    <string name="DeuxiemeMois">Deuxieme Mois</string>
-    <string name="TroisiemeMois">Troisieme Mois</string>
-    <string name="note2">Tous les organes vont se mettre en place</string>
+
+    <string name="poids">Weight</string>
+    <string name="taille">Size</string>
+    <string name="note1">The lower limbs are developing</string>
+    <string name="rythme">Heart rate</string>
+
+    <string name="PremierMois">First Month</string>
+    <string name="DeuxiemeMois">Second Month</string>
+    <string name="TroisiemeMois">Third Month</string>
+    <string name="QuatriemeMois">Fourth month</string>
+
+    <string name="note2">All the organs will start to fall into position</string>
     <string name="note3">Le ventre commence donc à se voir.</string>
-    <string name="QuatriemeMois">Quatrieme Mois</string>
+
     <string name="note4">Sa peau est transparente et laisse découvrir son réseau de vaisseaux sanguins</string>
     <string name="Date_Consultations"> Dates Consultations </string>
 
@@ -21,14 +25,16 @@
     <string name="prix_produit2">150Dt</string>
     <string name="prix_produit3">109Dt</string>
     <string name="prix_produit4">149Dt</string>
-    <string name="product_detail">Détails du produit</string>
+    <string name="product_detail">Product details</string>
     <string name="Description">Description</string>
-    <string name="prix">Prix</string>
+    <string name="prix">Price</string>
     <string name="desc1">Un appareil qui offre la possibilité d enregistrer le rythme cardiaque du fœtus.</string>
-    <string name="desc2">Un appareil qui offre la possibilité d enregistrer le rythme cardiaque du fœtus et déclare une alerte en cas de bardycardie/tachycardie du foetus</string>
-    >
-    <string name="ajout">Ajouter au panier</string>
+    <string name="desc2">
+      A device that offers the possibility of recording the heart rate of the fetus and declaring an alert </string>
+
+    <string name="ajout">Add to Cart</string>
     <string name="rate">Rate</string>
+
 
     // Espace conseils
     <string name="article1">Définition de la souffrance foetale</string>
