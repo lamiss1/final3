@@ -100,7 +100,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         upper_limit.enableDashedLine(10f, 10f, 0f);
         upper_limit.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_TOP);
         upper_limit.setTextSize(15f);
-        upper_limit.setTextColor(Color.MAGENTA);
+        upper_limit.setTextColor(Color.RED);
 
 
         LimitLine lower_line= new LimitLine(110f,"Danger");
@@ -108,7 +108,8 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         lower_line.enableDashedLine(10f, 10f, 0f);
         lower_line.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_BOTTOM);
         lower_line.setTextSize(15f);
-        upper_limit.setTextColor(Color.MAGENTA);
+        upper_limit.setTextColor(Color.RED);
+
 
 
         YAxis leftAxis = mChart.getAxisLeft();
@@ -176,7 +177,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
             }
 
 //            data.addEntry(new Entry(set.getEntryCount(), (float) (Math.random() * 80) + 10f), 0);
-            data.addEntry(new Entry(set.getEntryCount(), event.values[0] + 150), 0);
+            data.addEntry(new Entry(set.getEntryCount(), event.values[0] + 140), 0);
             data.notifyDataChanged();
 
             // let the chart know it's data has changed
@@ -196,7 +197,7 @@ public class Alerte extends AppCompatActivity implements SensorEventListener {
         LineDataSet set = new LineDataSet(null, "Dynamic Data");
         set.setAxisDependency(YAxis.AxisDependency.LEFT);
         set.setLineWidth(3f);
-        set.setColor(Color.MAGENTA);
+        set.setColor(Color.BLUE);
         set.setHighlightEnabled(false);
         set.setDrawValues(false);
         set.setDrawCircles(false);
