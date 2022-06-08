@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Bienvenue"
+            android:text="Welcome"
             android:textColor="#171847"
             android:textSize="45dp"
             android:textStyle="bold"
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="220dp"
-            android:text="Cher future maman "
+            android:text="Dear future mother "
             android:textColor="#EA5863"
             android:layout_marginBottom="70dp"/>
 
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="60dp"
-            android:text="Selectionner la date:"
+            android:text="Select the date:"
             android:textColor="#171847"
             android:textSize="30sp"
             />
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="20dp"
-            android:text="Selectionner la date:"
+            android:text="Select the time:"
             android:textColor="#171847"
             android:textSize="30sp"
             android:layout_gravity="center"/>
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Choisir l´heure"
+            android:text="Choose the time"
             android:backgroundTint="#869DAF"
             android:textSize="15dp"
             android:bottomRightRadius="25dp"
